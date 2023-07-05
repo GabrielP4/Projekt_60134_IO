@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="360.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projekt_60134_io.UserController">
+    <children>
+        <Button fx:id="btn_logout" alignment="CENTER" layoutX="396.0" layoutY="21.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Wyloguj" textAlignment="CENTER" />
+        <Label layoutX="14.0" layoutY="14.0" prefHeight="38.0" prefWidth="147.0" text="Użytkownik">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+        <TableView fx:id="tv_task_list" layoutX="14.0" layoutY="52.0" prefHeight="300.0" prefWidth="440.0">
+            <columns>
+                <TableColumn fx:id="tc_task_nr" prefWidth="67.0" text="Numer" />
+                <TableColumn fx:id="tc_task_des" prefWidth="372.0" text="Opis" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
